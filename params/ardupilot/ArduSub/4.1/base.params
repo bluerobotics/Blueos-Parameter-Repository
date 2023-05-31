@@ -1,0 +1,7 @@
+%include '../hardware/power_sense_module.params'
+
+AHRS_ORIENTATION: 16,
+BRD_RTC_TYPES: 3,
+MNT_RC_IN_TILT: 8,
+MNT_TYPE: 1,
+SERIAL0_PROTOCOL: 2, // MAVLink2

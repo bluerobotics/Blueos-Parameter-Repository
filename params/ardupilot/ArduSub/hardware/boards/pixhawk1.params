@@ -1,0 +1,4 @@
+  LEAK1_PIN: 55
+  SERVO7_FUNCTION: 59, // RCIN9 (camera)
+  SERVO8_FUNCTION: 7, // mount_tilt
+  SERVO8_REVERSED: 1,

@@ -1,4 +1,2 @@
-%include './base.params'
-
 ATC_ANG_RLL_P: 0.0,
 FRAME_CONFIG: 1,

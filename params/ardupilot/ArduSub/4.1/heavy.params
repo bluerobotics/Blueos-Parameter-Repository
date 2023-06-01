@@ -1,5 +1,3 @@
-%include './base.params'
-
 ATC_ANG_PIT_P: 6.0,
 ATC_ANG_RLL_P: 6.0,
 ATC_ANG_YAW_P: 6.0,

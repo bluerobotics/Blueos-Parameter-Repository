@@ -1,20 +1,4 @@
 {
-    "params/ardupilot/ArduSub/hardware/power_sense_module.params": {
-        "BATT_CAPACITY": 0.0,
-        "BATT_AMP_OFFSET": 0.33,
-        "BATT_AMP_PERVLT": 37.8788,
-        "BATT_VOLT_MULT": 11.0,
-        "BATT_MONITOR": 4.0
-    },
-    "params/ardupilot/ArduSub/hardware/boards/pixhawk1.params": {
-        "LEAK1_PIN": 55.0,
-        "SERVO7_FUNCTION": 59.0,
-        "SERVO8_FUNCTION": 7.0,
-        "SERVO8_REVERSED": 1.0
-    },
-    "params/ardupilot/ArduSub/hardware/boards/navigator.params": {
-        "LEAK1_PIN": 27.0
-    },
     "params/ardupilot/ArduSub/4.1/heavy.params": {
         "ATC_ANG_PIT_P": 6.0,
         "ATC_ANG_RLL_P": 6.0,
@@ -80,44 +64,6 @@
         "ATC_ANG_RLL_P": 6.0,
         "ATC_ANG_YAW_P": 6.0,
         "FRAME_CONFIG": 2.0,
-        "SERVO9_FUNCTION": 59.0,
-        "SERVO10_FUNCTION": 7.0,
-        "SERVO10_REVERSED": 1.0
-    },
-    "params/ardupilot/ArduSub/4.1/navigator/Standard BlueROV2.params": {
-        "LEAK1_PIN": 27.0,
-        "BATT_CAPACITY": 0.0,
-        "BATT_AMP_OFFSET": 0.33,
-        "BATT_AMP_PERVLT": 37.8788,
-        "BATT_VOLT_MULT": 11.0,
-        "BATT_MONITOR": 4.0,
-        "AHRS_ORIENTATION": 16.0,
-        "BRD_RTC_TYPES": 3.0,
-        "MNT_RC_IN_TILT": 8.0,
-        "MNT_TYPE": 1.0,
-        "SERIAL0_PROTOCOL": 2.0,
-        "ATC_ANG_RLL_P": 0.0,
-        "FRAME_CONFIG": 1.0
-    },
-    "params/ardupilot/ArduSub/4.1/navigator/Heavy BlueROV2.params": {
-        "LEAK1_PIN": 27.0,
-        "BATT_CAPACITY": 0.0,
-        "BATT_AMP_OFFSET": 0.33,
-        "BATT_AMP_PERVLT": 37.8788,
-        "BATT_VOLT_MULT": 11.0,
-        "BATT_MONITOR": 4.0,
-        "AHRS_ORIENTATION": 16.0,
-        "BRD_RTC_TYPES": 3.0,
-        "MNT_RC_IN_TILT": 8.0,
-        "MNT_TYPE": 1.0,
-        "SERIAL0_PROTOCOL": 2.0,
-        "ATC_ANG_PIT_P": 6.0,
-        "ATC_ANG_RLL_P": 6.0,
-        "ATC_ANG_YAW_P": 6.0,
-        "FRAME_CONFIG": 2.0,
-        "SERVO7_FUNCTION": 39.0,
-        "SERVO8_FUNCTION": 40.0,
-        "SERVO8_REVERSED": 0.0,
         "SERVO9_FUNCTION": 59.0,
         "SERVO10_FUNCTION": 7.0,
         "SERVO10_REVERSED": 1.0
@@ -219,6 +165,60 @@
         "PILOT_ACCEL_Z": 200.0,
         "PILOT_SPEED_UP": 200.0,
         "PSC_JERK_Z": 8.0
+    },
+    "params/ardupilot/ArduSub/4.1/navigator/Standard BlueROV2.params": {
+        "LEAK1_PIN": 27.0,
+        "BATT_CAPACITY": 0.0,
+        "BATT_AMP_OFFSET": 0.33,
+        "BATT_AMP_PERVLT": 37.8788,
+        "BATT_VOLT_MULT": 11.0,
+        "BATT_MONITOR": 4.0,
+        "AHRS_ORIENTATION": 16.0,
+        "BRD_RTC_TYPES": 3.0,
+        "MNT_RC_IN_TILT": 8.0,
+        "MNT_TYPE": 1.0,
+        "SERIAL0_PROTOCOL": 2.0,
+        "ATC_ANG_RLL_P": 0.0,
+        "FRAME_CONFIG": 1.0
+    },
+    "params/ardupilot/ArduSub/4.1/navigator/Heavy BlueROV2.params": {
+        "LEAK1_PIN": 27.0,
+        "BATT_CAPACITY": 0.0,
+        "BATT_AMP_OFFSET": 0.33,
+        "BATT_AMP_PERVLT": 37.8788,
+        "BATT_VOLT_MULT": 11.0,
+        "BATT_MONITOR": 4.0,
+        "AHRS_ORIENTATION": 16.0,
+        "BRD_RTC_TYPES": 3.0,
+        "MNT_RC_IN_TILT": 8.0,
+        "MNT_TYPE": 1.0,
+        "SERIAL0_PROTOCOL": 2.0,
+        "ATC_ANG_PIT_P": 6.0,
+        "ATC_ANG_RLL_P": 6.0,
+        "ATC_ANG_YAW_P": 6.0,
+        "FRAME_CONFIG": 2.0,
+        "SERVO7_FUNCTION": 39.0,
+        "SERVO8_FUNCTION": 40.0,
+        "SERVO8_REVERSED": 0.0,
+        "SERVO9_FUNCTION": 59.0,
+        "SERVO10_FUNCTION": 7.0,
+        "SERVO10_REVERSED": 1.0
+    },
+    "params/ardupilot/ArduSub/hardware/power_sense_module.params": {
+        "BATT_CAPACITY": 0.0,
+        "BATT_AMP_OFFSET": 0.33,
+        "BATT_AMP_PERVLT": 37.8788,
+        "BATT_VOLT_MULT": 11.0,
+        "BATT_MONITOR": 4.0
+    },
+    "params/ardupilot/ArduSub/hardware/boards/navigator.params": {
+        "LEAK1_PIN": 27.0
+    },
+    "params/ardupilot/ArduSub/hardware/boards/pixhawk1.params": {
+        "LEAK1_PIN": 55.0,
+        "SERVO7_FUNCTION": 59.0,
+        "SERVO8_FUNCTION": 7.0,
+        "SERVO8_REVERSED": 1.0
     },
     "params/ardupilot/ArduRover/4.2/Navigator/BlueBoat120.params": {
         "ACRO_TURN_RATE": 45.0,
@@ -495,15 +495,15 @@
         "FRSKY_DNLINK_ID": 27.0,
         "FRSKY_OPTIONS": 0.0,
         "FRSKY_UPLINK_ID": 13.0,
-        "FS_ACTION": 4.0,
+        "FS_ACTION": 2.0,
         "FS_CRASH_CHECK": 0.0,
         "FS_EKF_ACTION": 1.0,
         "FS_EKF_THRESH": 0.8,
-        "FS_GCS_ENABLE": 0.0,
+        "FS_GCS_ENABLE": 2.0,
         "FS_OPTIONS": 0.0,
         "FS_THR_ENABLE": 0.0,
         "FS_THR_VALUE": 910.0,
-        "FS_TIMEOUT": 1.5,
+        "FS_TIMEOUT": 5.0,
         "GCS_PID_MASK": 1.0,
         "GEN_TYPE": 0.0,
         "GPS_AUTO_CONFIG": 1.0,

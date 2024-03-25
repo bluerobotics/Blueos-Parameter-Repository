@@ -21,6 +21,7 @@ jobs:
           python consolidate.py
           mkdir build
           mv params* build/
+          mv scripts* build/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

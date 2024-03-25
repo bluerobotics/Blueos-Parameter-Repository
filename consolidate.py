@@ -97,3 +97,19 @@ for dirpath, dirnames, filenames in os.walk(root_directory):
 # Save the json_data to a JSON file
 with open('params_v1.json', 'w') as json_file:
     json.dump(json_data, json_file, indent=4)
+
+
+# Now let's do scripts
+# Start at the root directory and walk the directory tree
+root_directory = os.getcwd()  # Get current directory
+files = []
+for dirpath, dirnames, filenames in os.walk(root_directory):
+    for filename in filenames:
+        if filename.endswith('.lua'):
+            file_path = os.path.join(dirpath, filename)
+            relative_path = os.path.relpath(file_path, root_directory)
+            files.append(relative_path)
+
+# Save the json_data to a JSON file
+with open('scripts_v1.json', 'w') as json_file:
+    json.dump(files, json_file, indent=4)

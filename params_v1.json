@@ -499,7 +499,7 @@
         "FRSKY_DNLINK_ID": 27.0,
         "FRSKY_OPTIONS": 0.0,
         "FRSKY_UPLINK_ID": 13.0,
-        "FS_ACTION": 2.0,
+        "FS_ACTION": 4.0,
         "FS_CRASH_CHECK": 0.0,
         "FS_EKF_ACTION": 0.0,
         "FS_EKF_THRESH": 0.8,

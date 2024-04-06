@@ -1,6 +1,7 @@
 -- This scripts is used to control Blue Robotics`s NavLight on the Blue Boat
 
-local RELAY_NUM = 0
+local LIGHT_PIN = 18
+gpio:pinMode(LIGHT_PIN, 1)
 
 local MODES = {
     "MANU",
@@ -107,7 +108,7 @@ function update() -- this is the loop which periodically runs
 
     if interval == 0 then -- Special case, light always on
         if not is_light_on_tm then
-            relay:on(RELAY_NUM)
+            gpio:write(LIGHT_PIN,1)
             is_light_on_tm = true
         end
         return update, 50 -- reschedules
@@ -121,11 +122,12 @@ function update() -- this is the loop which periodically runs
 
     -- Check if it's time to toggle the light
     if blink_counter < times and now - last_blink >= (is_light_on_tm and high or low) then
+        gpio:toggle(LIGHT_PIN)
         is_light_on_tm = not is_light_on_tm
         if is_light_on_tm then
-            relay:on(RELAY_NUM)
+            gpio:write(LIGHT_PIN, 1)
         else
-            relay:off(RELAY_NUM)
+            gpio:write(LIGHT_PIN, 0)
         end
         last_blink = now
         if not is_light_on_tm then -- Increment the counter when the light turns off
@@ -135,7 +137,7 @@ function update() -- this is the loop which periodically runs
 
     -- Turn off the light at the end of the cycle
     if blink_counter >= times and is_light_on_tm then
-        relay:off(RELAY_NUM)
+        gpio:write(LIGHT_PIN, 0)
         is_light_on_tm = false
     end
 

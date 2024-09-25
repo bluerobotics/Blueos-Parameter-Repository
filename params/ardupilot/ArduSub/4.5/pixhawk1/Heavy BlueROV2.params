@@ -1,0 +1,3 @@
+%include "../../hardware/boards/pixhawk1.params"
+%include "../base.params"
+%include "../heavy.params"

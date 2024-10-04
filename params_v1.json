@@ -2844,7 +2844,9 @@
         "AHRS_ORIENTATION": 16.0,
         "BRD_RTC_TYPES": 3.0,
         "MNT1_TYPE": 1.0,
-        "SERIAL0_PROTOCOL": 2.0
+        "SERIAL0_PROTOCOL": 2.0,
+        "MNT1_PITCH_MAX": 45.0,
+        "RNGFND1_TYPE": 10.0
     },
     "params/ardupilot/ArduSub/4.5/pixhawk1/Standard BlueROV2.params": {
         "LEAK1_PIN": 55.0,
@@ -2860,6 +2862,8 @@
         "BRD_RTC_TYPES": 3.0,
         "MNT1_TYPE": 1.0,
         "SERIAL0_PROTOCOL": 2.0,
+        "MNT1_PITCH_MAX": 45.0,
+        "RNGFND1_TYPE": 10.0,
         "ATC_ANG_RLL_P": 0.0,
         "FRAME_CONFIG": 1.0
     },
@@ -2877,6 +2881,8 @@
         "BRD_RTC_TYPES": 3.0,
         "MNT1_TYPE": 1.0,
         "SERIAL0_PROTOCOL": 2.0,
+        "MNT1_PITCH_MAX": 45.0,
+        "RNGFND1_TYPE": 10.0,
         "ATC_ANG_PIT_P": 6.0,
         "ATC_ANG_RLL_P": 6.0,
         "ATC_ANG_YAW_P": 6.0,
@@ -2896,6 +2902,8 @@
         "BRD_RTC_TYPES": 3.0,
         "MNT1_TYPE": 1.0,
         "SERIAL0_PROTOCOL": 2.0,
+        "MNT1_PITCH_MAX": 45.0,
+        "RNGFND1_TYPE": 10.0,
         "ATC_ANG_RLL_P": 0.0,
         "FRAME_CONFIG": 1.0
     },
@@ -2910,6 +2918,8 @@
         "BRD_RTC_TYPES": 3.0,
         "MNT1_TYPE": 1.0,
         "SERIAL0_PROTOCOL": 2.0,
+        "MNT1_PITCH_MAX": 45.0,
+        "RNGFND1_TYPE": 10.0,
         "ATC_ANG_PIT_P": 6.0,
         "ATC_ANG_RLL_P": 6.0,
         "ATC_ANG_YAW_P": 6.0,

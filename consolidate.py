@@ -43,7 +43,7 @@ def parse_file(file_path, included_files=None):
                 continue
             # Check for include directive
             if line.startswith('%include'):
-                included_file = line.split(' ')[1].strip("'").strip('"')
+                included_file = line.split(' ', 1)[1].strip("'").strip('"')
                 included_file_path = os.path.normpath(os.path.join(os.path.dirname(file_path), included_file))
                 if included_file_path not in included_files and os.path.isfile(included_file_path):
                     included_params = parse_file(included_file_path, included_files)

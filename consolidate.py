@@ -8,7 +8,7 @@ import string
 pattern1 = r'^\s*(\d+)\s+(\d+)\s+(\S+)\s+([\d.-]+)\s+(\d+)\s*$'
 pattern2 = r'^\s*(\S+)\s+(\S+)\s+(\S+)\s+([\d.-]+)\s*$'
 pattern3 = r'^\s*(\S+)\s*[:,\s]\s*([\d.-]+)\s*$'
-pattern4 = r'(\w+)\s*:\s*([\d\.]+),?'
+pattern4 = r'(\w+)\s*:\s*([-\d\.]+),?'
 
 import re
 import os
@@ -33,7 +33,7 @@ def parse_file(file_path, included_files=None):
     included_files.add(file_path)
     file_params = {}
 
-    pattern4 = r'(\w+)\s*:\s*([\d\.]+),?'
+    pattern4 = r'(\w+)\s*:\s*([-\d\.]+),?'
 
     with open(file_path, 'r') as file:
         for line in file:

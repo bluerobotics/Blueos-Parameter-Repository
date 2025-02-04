@@ -1,3 +1,17 @@
 %include "../../hardware/boards/navigator.params"
 %include "../base.params"
 %include "../standard.params"
+
+// based on https://bluerobotics.com/learn/bluerov2-operation/#autopilot-output-channel-configuration
+
+// aux channels all disabled
+SERVO9_FUNCTION: 0, // aux 1
+SERVO10_FUNCTION: 0, // aux 2
+SERVO11_FUNCTION: 0, // aux 3
+
+SERVO12_FUNCTION: 0, // unused
+
+SERVO13_FUNCTION: 59, // lights 1
+SERVO14_FUNCTION: 60, // lights 2
+SERVO15_FUNCTION: 0, // unused
+SERVO16_FUNCTION: 7, // mount pitch

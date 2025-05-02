@@ -2,3 +2,4 @@
 %include "../base.params"
 %include "../heavy.params"
 SERVO10_FUNCTION: 7.0
+SERVO9_FUNCTION: 59.0

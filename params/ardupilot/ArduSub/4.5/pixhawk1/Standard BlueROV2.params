@@ -1,3 +1,5 @@
 %include "../../hardware/boards/pixhawk1.params"
 %include "../base.params"
 %include "../standard.params"
+
+SERVO14_FUNCTION: -1,

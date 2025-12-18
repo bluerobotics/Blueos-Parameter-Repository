@@ -939,7 +939,7 @@ TELEM_DELAY      0
 TEMP1_TYPE       0
 TEMP2_TYPE       0
 TEMP3_TYPE       0
-TEMP_LOG         0
+TEMP_LOG         1
 TRQ1_TYPE        0
 TRQ2_TYPE        0
 TURN_RADIUS      0.1

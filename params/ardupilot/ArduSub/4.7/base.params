@@ -1,0 +1,22 @@
+%include '../hardware/power_sense_module.params'
+
+AHRS_ORIENTATION: 16,
+BRD_RTC_TYPES: 3,
+MNT1_TYPE: 1,
+SERIAL0_PROTOCOL: 2, // MAVLink2
+MNT1_PITCH_MAX: 45,
+MNT1_PITCH_MIN: -45,
+RNGFND1_TYPE: 10,
+EK3_SRC1_POSXY: 0,
+// first 6 motors always match
+SERVO1_FUNCTION: 33,
+SERVO2_FUNCTION: 34,
+SERVO3_FUNCTION: 35,
+SERVO4_FUNCTION: 36,
+SERVO5_FUNCTION: 37,
+SERVO6_FUNCTION: 38,
+SERVO14_FUNCTION: -1,
+// updates to 4.7 to recover previous behavior
+ATC_ANGLE_MAX: 45
+// Faster user response
+ATC_INPUT_TC: 0.1

@@ -11,7 +11,7 @@ SERVO11_FUNCTION: 0, // aux 3
 
 SERVO12_FUNCTION: 0, // unused
 
-SERVO13_FUNCTION: 59, // lights 1
-SERVO14_FUNCTION: 60, // lights 2
+SERVO13_FUNCTION: 181, // lights 1
+SERVO14_FUNCTION: 182, // lights 2
 SERVO15_FUNCTION: 0, // unused
 SERVO16_FUNCTION: 7, // mount pitch

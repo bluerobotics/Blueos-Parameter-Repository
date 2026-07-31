@@ -1,4 +1,5 @@
 %include "../../hardware/boards/navigator.params"
+%include "../../hardware/tmp119.params"
 %include "../base.params"
 %include "../standard.params"
 

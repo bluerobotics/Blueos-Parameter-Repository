@@ -17,7 +17,8 @@ SERVO5_FUNCTION: 37,
 SERVO6_FUNCTION: 38,
 SERVO14_FUNCTION: -1,
 // updates to 4.7 to recover previous behavior
-ATC_ANGLE_MAX: 45
+ATC_ANGLE_MAX: 45,
+RC3_TRIM: 1500,
 // Faster user response
 ATC_INPUT_TC: 0.1
 ARMING_SKIPCHK: 16776831
